@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    margin: 0;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.screens {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.phone {
+    width: 300px;
+    min-height: 600px;
+    background: white;
+    border: 3px solid #333;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.phone h2 {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 12px;
+}
+
+.search {
+    border: 2px solid #555;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 20px 0;
+}
+
+.box {
+    border: 2px solid #555;
+    padding: 18px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.image-box {
+    height: 120px;
+    border: 2px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.item {
+    border: 2px solid #555;
+    padding: 13px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 15px;
+    border: 2px solid #333;
+    background: #dddddd;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #333;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 13px;
+}
